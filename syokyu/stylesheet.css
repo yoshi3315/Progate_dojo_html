@@ -55,8 +55,7 @@ span {
 }
 
 .contents-lesson {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px 0px;
   height: 500px;
 }
 
