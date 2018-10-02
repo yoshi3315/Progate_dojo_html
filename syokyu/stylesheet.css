@@ -44,14 +44,34 @@ header li {
 
 .contents-top h1 {
   font-size: 140px;
-  
 }
 
 .contents-top h2 {
   font-size: 60px;
-  
 }
 
 span {
   color: #ff4a4a;
+}
+
+.contents-lesson {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 500px;
+}
+
+.lesson-top h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.lesson {
+  float: left;
+  margin-right: 40px;
+}
+
+.lesson p {
+  margin-top: 30px;
 }
