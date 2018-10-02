@@ -35,3 +35,21 @@ header li {
   padding: 33px 20px;
   float: left;
 }
+
+.contents {
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.contents-top h1 {
+  font-size: 140px;
+}
+
+.contents-top h2 {
+  font-size: 60px;
+}
+
+span {
+  color: #ff4a4a;
+}
