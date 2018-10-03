@@ -37,9 +37,7 @@ header li {
 }
 
 .contents {
-  padding-top: 100px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 100px 80px;
 }
 
 .contents-top h1 {
@@ -59,7 +57,7 @@ span {
   height: 500px;
 }
 
-.lesson-top h3 {
+h3 {
   font-size: 28px;
   padding-bottom: 15px;
   margin-bottom: 50px;
@@ -74,4 +72,23 @@ span {
 .lesson p {
   margin-top: 30px;
   font-size: 24px;
+}
+
+.form {
+  font-size: 18px;
+  width: 400px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #dee7ec;
+}
+
+.btn {
+  font-size: 18px;
+  width: 400px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #dee7ec;
+  color: #889eab;
 }
