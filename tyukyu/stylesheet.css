@@ -3,14 +3,84 @@
 /* CSSのリセット（消さないでください） */
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
+h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
 li {
   list-style: none;
 }
 
-/* ここからCSSを記述してください */
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  color: white;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top p {
+  color: white;
+  opacity: 0.7;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.submit {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: white;
+  opacity: 0.8;
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.facebook {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: white;
+  background-color: #3b5998;
+  opacity: 0.8;
+}
+
+.twitter {
+  margin-top: 15px;
+  color: white;
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+.fa {
+  margin-right: 5px;
+}
