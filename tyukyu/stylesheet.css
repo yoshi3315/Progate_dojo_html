@@ -118,3 +118,44 @@ h1 {
 .fa {
   margin-right: 5px;
 }
+
+.lessons {
+  background-color: #f7f7f7;
+  height: 580px;
+}
+
+.lessons-container {
+  margin: 0 auto;
+  width: 1170px;
+  text-align: center;
+}
+
+h2 {
+  color: #5f5d60;
+  padding: 80px 0 50px;
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-block {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lesson-name {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 91px;
+}
+
+.lesson-text {
+  padding-top: 15px;
+  color: #b3aeb5;
+  font-size: 13px;
+}
