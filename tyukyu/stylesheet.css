@@ -21,6 +21,40 @@ a {
 }
 
 /* ここからCSSを書いていきましょう */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+
+.header-contents {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-logo img {
+  width: 124px;
+  padding-top: 20px;
+  float: left;
+}
+
+.header-login {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0px 25px;
+  line-height: 65px;
+  color: white;
+  height: 65px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.header-login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .top {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
