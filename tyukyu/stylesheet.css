@@ -130,7 +130,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.lessons-title {
   color: #5f5d60;
   padding: 80px 0 50px;
   font-weight: normal;
@@ -158,4 +158,44 @@ h2 {
   padding-top: 15px;
   color: #b3aeb5;
   font-size: 13px;
+}
+
+.messages-container {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-message {
+  color: #5f5d60;
+  padding-top: 80px;
+  font-weight: normal;
+}
+
+.sub-message {
+  color: #5f5d60;
+  padding-bottom: 50px;
+  font-weight: normal;
+}
+
+.start-btn {
+  padding: 15px 40px;
+  margin-bottom: 80px;
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  opacity: 1;
+}
+
+.start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 8px;
 }
